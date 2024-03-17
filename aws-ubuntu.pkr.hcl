@@ -41,9 +41,9 @@ build {
   provisioner "shell" {
     inline = ["sh /tmp/build.sh"]
   }
-  provisioner "breakpoint" {
-    disable = false
-    note    = "this is a breakpoint"
-  }
+  # provisioner "breakpoint" {
+  #   disable = false
+  #   note    = "this is a breakpoint"
+  # }
 
 }

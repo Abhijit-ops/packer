@@ -9,7 +9,7 @@ packer {
 
 data "amazon-ami" "amiid" {
     filters = {
-      name                = "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-arm64-server-20240228"
+      name                = "ubuntu/images/*ubuntu-jammy-22.04-amd64-server-*"
       root-device-type    = "ebs"
       virtualization-type = "hvm"
     }
